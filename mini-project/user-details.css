@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+.btnDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn{
+    background: #8585e3;
+    width: 90%;
+    font-size: 20px;
+    cursor:pointer;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    outline: none;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 10px rgb(0 0 0 / 10%);
+
+}
+.hr{
+    border-top: 1px solid #8585e3;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.hr:first-child{
+    border-top: none;
+}
+.btn:hover{
+    background: #8585e390;
+    transition: all .3s ease;
+}
+.posts ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.posts ul li{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.posts ul li::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #8585e3;
+    border-radius: 100%;
+    display: flex;
+    left: -20px;
+    position: relative;
+    flex: none;
+}
+.posts ul li a {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #8585e3;
+}
